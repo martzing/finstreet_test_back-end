@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.static(`${__dirname}/public`))
 
 // connect to mongodb
-mongoose.connect('mongodb://localhost/finstreest_test')
+mongoose.connect('mongodb://localhost/finstreet_test')
 mongoose.Promise = global.Promise
 
 app.use(bodyParser.json())
